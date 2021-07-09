@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBrown"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:contentDescription="@string/logo_description"
+        android:src="@drawable/logo" />
+
+    <TextView
+<<<<<<< HEAD
+        android:id="@+id/textViewWelcome"
+=======
+        android:id="@+id/textViewHello"
+>>>>>>> a56a047 (CafeOrderFinish)
+
+        android:textSize="32sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome" />
+
+    <EditText
+        android:id="@+id/editTextTextName"
+        android:hint="@string/hint_name"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+         />
+
+    <EditText
+        android:id="@+id/editTexPassword"
+        android:hint="@string/hint_password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonCreateOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:background="@color/white"
+        android:textColor="@color/darkBrown"
+        android:layout_margin="8dp"
+        android:onClick="onClickCreateOrder"
+        android:text="@string/button_create_order" />
+</LinearLayout>
+
+
+
